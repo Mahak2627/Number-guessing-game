@@ -8,6 +8,7 @@ int main(){
     srand(time(0));
     Random_number = rand();
     printf("Random Number: %d\n", Random_number);
+    system("cls");
     int Entered_number,value=0;
     while(Entered_number!=Random_number){
         printf("\nEnter your input:");
@@ -25,4 +26,5 @@ int main(){
         }
     }
     return 0;
+
 }
